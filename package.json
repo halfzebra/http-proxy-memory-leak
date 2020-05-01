@@ -1,0 +1,12 @@
+{
+  "name": "node-http-proxy-memory-leak",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0:9228 src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.0"
+  }
+}
